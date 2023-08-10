@@ -4,7 +4,11 @@
       <div
         class="d-flex justify-content-end gap-5 flex-sm-row flex-column h-100 align-items-center"
       >
-        <div *ngFor="let nav of navLinks">
+        <div
+          class="cursor-pointer"
+          *ngFor="let nav of navLinks"
+          [routerLink]="nav?.route"
+        >
           {{ nav?.name }}
         </div>
       </div>
