@@ -1,4 +1,4 @@
 export interface NavLinks {
-    name: string;
+    label: string;
     route: string;
 }

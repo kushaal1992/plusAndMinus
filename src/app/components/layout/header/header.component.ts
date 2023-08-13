@@ -8,11 +8,11 @@ import { NavLinks } from 'src/app/interfaces/navLink.interface';
 })
 export class HeaderComponent implements OnInit {
   navLinks: NavLinks[] = [
-    { name: 'Home', route: '/home' },
-    { name: 'About Us', route: '/' },
-    { name: 'Catalysts', route: '/' },
-    { name: 'Admissions', route: '/admissions' },
-    { name: 'Support', route: '/' },
+    { label: 'Home', route: '/home' },
+    { label: 'About Us', route: '/' },
+    { label: 'Catalysts', route: '/' },
+    { label: 'Admissions', route: '/admissions/form' },
+    { label: 'Support', route: '/' },
   ];
   ngOnInit(): void {}
 }

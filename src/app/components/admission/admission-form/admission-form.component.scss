@@ -1,0 +1,12 @@
+@import "variables";
+
+.product-features {
+  list-style: none;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  padding: 2rem;
+}
